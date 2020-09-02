@@ -2458,7 +2458,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 .home-about-area {
-  background: #f9f9ff;
+  background: #fff;
 }
 
 .home-about-area .home-about-left h1 {
@@ -2588,11 +2588,12 @@ body.mobile-nav-active #mobile-nav-toggle {
   -moz-transition: all 0.3s ease 0s;
   -o-transition: all 0.3s ease 0s;
   transition: all 0.3s ease 0s;
+  border-radius:50%;
 }
 
-.single-service:hover .thumb img {
+/* .single-service:hover .thumb img {
   transform: scale(1.1) rotate(-2deg);
-}
+} */
 
 @media (max-width: 960px) {
   .single-service {
