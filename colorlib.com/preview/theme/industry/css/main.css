@@ -1988,9 +1988,9 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #header #logo img {
-  padding: 5px;
+  /* padding: 5px; */
   height:50px;
-  width:160px;
+  /* width:160px; */
 }
 
 @media (max-width: 768px) {
@@ -2333,7 +2333,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 .banner-area {
-  background: url(../img/bg12.jpg) center;
+  background: url(../img/landing4.jpg) center;
   background-size: cover;
 }
 
